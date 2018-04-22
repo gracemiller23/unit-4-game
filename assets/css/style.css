@@ -1,0 +1,123 @@
+
+/* Basic Styles & Font */
+body {
+    background-image: url(../images/clouds-3317458.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:12px;
+    font-family: 'Aldrich', sans-serif;
+
+}
+
+header {
+    padding: 2%;
+}
+
+h1{
+    font-family: 'Stalinist One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    color:white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    margin-top: -2%;
+}
+
+h3 {
+    text-align:center;
+    font-size:1.5em;
+
+}
+
+h4 {
+    text-align:center;
+    font-size:1.25em;
+}
+
+figure{
+    border: 1px solid white;
+}
+
+figcaption {
+    width:100%;
+    background-color:white;
+    color: navy;
+    text-align:center;
+}
+
+/* Character Display Section Styling */
+.character-start-left {
+    
+}
+
+.character-start-left img {
+    width: 60%;
+    height: auto;
+    margin: 15% auto;
+    display:block;
+  
+}
+
+.character-start-right {
+   
+}
+
+.character-start-right img{
+    width: 60%;
+    height: auto;
+    margin: 15% auto;
+    display:block;
+    
+}
+
+
+/* Action Arena Styling */
+.arena {
+
+}
+.messages {
+    background-color:black;
+    color:rgb(117, 243, 128);
+    width:120%;
+    padding:1% 0 !important;
+    margin-bottom: 2%;
+
+}
+.chosen img {
+    display:block;
+    width:100%; 
+    height: auto;
+}
+.defender img {
+    display:block;
+    width:100%; 
+    height: auto;
+}
+
+.attack {
+    width: 150px;
+    margin: 0 auto;
+    padding-top:2%;
+    border-radius: 20px;
+    color:red;
+    font-size:2em;
+}
+
+.action img{
+    width:105%;
+}
+
+
+.enemies1 .enemies2 .enemies3 .enemies4 img{
+    display:inline;
+    margin: 0 2%;
+    width: 110%;
+}
+
+
+
+/* Media Queries - add responsive background image */
