@@ -50,9 +50,6 @@ figcaption {
 }
 
 /* Character Display Section Styling */
-.character-start-left {
-    
-}
 
 .character-start-left img {
     width: 60%;
@@ -62,9 +59,6 @@ figcaption {
   
 }
 
-.character-start-right {
-   
-}
 
 .character-start-right img{
     width: 60%;
@@ -75,48 +69,46 @@ figcaption {
 }
 
 
-/* Action Arena Styling */
-.arena {
 
-}
 .messages {
     background-color:black;
     color:rgb(117, 243, 128);
     width:120%;
     padding:1% 0 !important;
     margin-bottom: 2%;
+    text-align: center;
+    font-size: 2em;
 
 }
-.chosen img {
-    display:block;
-    width:100%; 
-    height: auto;
-}
-.defender img {
-    display:block;
-    width:100%; 
-    height: auto;
+
+.numOfWins {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 2%;
 }
 
-.attack {
-    width: 150px;
-    margin: 0 auto;
-    padding-top:2%;
-    border-radius: 20px;
-    color:red;
-    font-size:2em;
+.numOfLosses {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 2%;
 }
 
-.action img{
-    width:105%;
+.random-number{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    padding: 1%;
 }
 
-
-.enemies1 .enemies2 .enemies3 .enemies4 img{
-    display:inline;
-    margin: 0 2%;
-    width: 110%;
+.player-tally{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    padding: 1%;
 }
+
 
 
 
