@@ -7,7 +7,7 @@ var zeus = 0;
 var athena = 0;
 var hera = 0;
 var ares = 0;
-var instructions = "Instructions";
+var instructions = "Try to match the random number by clicking Zeus, Hera, Athena, or Ares.";
 
 function resetGame() {
    
